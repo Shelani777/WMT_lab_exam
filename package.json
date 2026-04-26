@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "item-manager-frontend",
   "private": true,
   "version": "1.0.0",
@@ -18,5 +19,24 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
     "vite": "^5.4.21"
+=======
+  "name": "item-manager-backend",
+  "version": "1.0.0",
+  "description": "Backend API for the MERN Item Manager Lab Test",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "mongoose": "^8.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+>>>>>>> 9bf6c40e740e10bfe33f59e801277aaecb95ec17
   }
 }
